@@ -64,5 +64,16 @@ elseif($confirm -eq "n"){
 
 else{
     # Not completed. Perhaps need to change these into switch statements instead to do a looping type of function
-    Write-Host "Invalid input "
+    Write-Host "Invalid input"
 }
+
+Read-Host "Press enter to close out window."
+
+
+
+
+
+
+
+
+# Script created by Matt Blackburn. If you have any questions of recommendations on how to make the script better send me an email at solitaireblack21@gmail.com
