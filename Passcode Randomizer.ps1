@@ -1,3 +1,4 @@
+# Script created by Matt Blackburn. If you have any questions of recommendations on how to make the script better send me an email at solitaireblack21@gmail.com
 # Script to pick out a number randomly from the min and max value the user inputs
  
 echo "This is a passcode randomizer."
