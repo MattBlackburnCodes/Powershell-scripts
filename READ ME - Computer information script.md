@@ -1,14 +1,12 @@
 # Computer Information Script
 
-**About
-
+About
 *********************************************************************************************************************************
 This script is used to gather information from a remote workstation within the Active directory environment.
 The goal of this script is to obtain the remote computer's serial number, current user logged in, and the last time machine has been rebooted. Also, the script now prompts to the end user if they want to run a report on what software and system updates have been installed.
 *********************************************************************************************************************************
 
-**How to use
-
+How to use
 *********************************************************************************************************************************
 An admin account isn't needed to run this script.
 
