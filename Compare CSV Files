@@ -1,0 +1,14 @@
+# Put the name of the file path in $path not including the folder. This is to reduce having to type in the code repeatedly.
+$path = 'insert file path'
+
+#Put the names of the .csv file that need to be compared.
+$file1 = Get-Content -Path "$($path)\insert file name"
+$file2 = Get-Content -Path "$($path)\Insert second file name"
+
+#Compare both .csv files
+$Headers = $file1[0]
+$Body = (Compare-Object -ReferenceObject $file1 -DifferenceObject $file2 | Where-Object {$_.SideIndicator -eq "=>"}).InputObject
+$new = @($Headers) + $Body
+
+#Output the results into another .csv file.
+$new | Out-File "$($path)\insert name of output file" -Encoding Ascii
