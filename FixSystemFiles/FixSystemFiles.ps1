@@ -26,4 +26,4 @@ foreach ($computer in $updateComputers){
         $cantUpdate += $computer
     }
 } 
-
+Write-Host "$cantUpdate couldn't be updated at this time. Please try again later"
